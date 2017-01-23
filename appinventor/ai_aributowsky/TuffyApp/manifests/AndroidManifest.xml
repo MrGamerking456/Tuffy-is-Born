@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:versionCode="1"
+    android:versionName="1.0"
+    package="appinventor.ai_aributowsky.TuffyApp"
+    android:platformBuildVersionCode="22"
+    android:platformBuildVersionName="5.1.1-1819727">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.ACCOUNT_MANAGER" tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-sdk android:minSdkVersion="4" />
+    <application android:label="TuffyApp" android:icon="@drawable/ya" android:name="com.google.appinventor.components.runtime.multidex.MultiDexApplication">
+        <activity android:name="appinventor.ai_aributowsky.TuffyApp.AboutPage" android:configChanges="keyboard|keyboardHidden|orientation" android:windowSoftInputMode="2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="appinventor.ai_aributowsky.TuffyApp.Coloring" android:configChanges="keyboard|keyboardHidden|orientation" android:windowSoftInputMode="2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="appinventor.ai_aributowsky.TuffyApp.ColoringGameKey" android:configChanges="keyboard|keyboardHidden|orientation" android:windowSoftInputMode="2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="appinventor.ai_aributowsky.TuffyApp.ColoringGameRules" android:configChanges="keyboard|keyboardHidden|orientation" android:windowSoftInputMode="2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="appinventor.ai_aributowsky.TuffyApp.GameScreen" android:configChanges="keyboard|keyboardHidden|orientation" android:windowSoftInputMode="2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="appinventor.ai_aributowsky.TuffyApp.Picture2" android:configChanges="keyboard|keyboardHidden|orientation" android:windowSoftInputMode="2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="appinventor.ai_aributowsky.TuffyApp.Picture3" android:configChanges="keyboard|keyboardHidden|orientation" android:windowSoftInputMode="2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="appinventor.ai_aributowsky.TuffyApp.Picture4" android:configChanges="keyboard|keyboardHidden|orientation" android:windowSoftInputMode="2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="appinventor.ai_aributowsky.TuffyApp.Picture5" android:configChanges="keyboard|keyboardHidden|orientation" android:windowSoftInputMode="2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="appinventor.ai_aributowsky.TuffyApp.Picture6" android:configChanges="keyboard|keyboardHidden|orientation" android:windowSoftInputMode="2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="appinventor.ai_aributowsky.TuffyApp.Screen1" android:configChanges="keyboard|keyboardHidden|orientation" android:windowSoftInputMode="2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
